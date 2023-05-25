@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F9F9F7;
+}
+
+.hiddenOverflow {
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar {
+    background-color: #eff2f7;
+    width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #1A2E44;
+    border-radius: 35px;
+}
+
+input,
+select,
+textarea {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none !important;
+    border-color: 1px solid #999999 !important;
+    box-shadow: none !important;
+}
+
+.form-check-input {
+    background-color: #22D172 !important;
+    border-color: #22D172 !important;
+}
+
+.form-label {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+p,
+h3,
+h1,
+ul,
+div,
+span {
+    padding: 0px;
+    margin: 0px;
+}
+
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.pagin {
+    list-style: none;
+    display: flex;
+}
+
+.pagin>li {
+    margin-right: 8px;
+    background-color: #1A2E44;
+    border-radius: 50%;
+    padding: 2px 8px;
+}
+
+.pagin>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+.activePage {
+    background-color: #315881 !important;
+}
+
+.changedTopNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 10000;
+}

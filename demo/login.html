@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/register.css" />
+    <link rel="stylesheet" href="./assets/css/register.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Nuevo Vacancy - the best recruitment agency in the world</title>
+</head>
+
+<body>
+
+    <header>
+        <!-- DESKTOP MENU -->
+        <div id="topMenu">
+            <div class="container">
+                <div class="row align-items-center d-flex justify-content-evenly ">
+                    <div id="logo" class="col-3">
+                        <a href="/">
+                            <img src="./assets/images/logo.png" alt="nuevovacancy_logo" />
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <ul id="mainMenu" class="navbar-nav d-lg-flex flex-row position-relative">
+                            <li class="mpli withN">
+                                <span>jobs</span>
+                                <i class="fas fa-angle-down"></i>
+                                <ul class="ddm animate__animated animate__zoomIn">
+                                    <li>
+                                        <img src="./assets/images/user.jpg" alt="menu_icon">
+                                        <a href="#">qa automation</a>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/images/user.jpg" alt="menu_icon">
+                                        <a href="#">javascript tutorial</a>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/images/user.jpg" alt="menu_icon">
+                                        <a href="#">nestjs documentation</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">trainings</a></li>
+                            <li><a href="#">contacts</a></li>
+                            <li><a href="#">about</a></li>
+                        </ul>
+                    </div>
+                    <div id="regLog" class="col-2">
+                        <select class="langBtn" name="">
+                            <option value="en" selected>en</option>
+                            <option value="es">es</option>
+                            <option value="am">am</option>
+                        </select>
+                        <a class="singUpBtn" href="file:///D:/Downloads/nuevovacancy/html/register.html">sign up</a>
+                        <a class="loginBtn" href="file:///D:/Downloads/nuevovacancy/html/login.html">log in</a>
+                        <!-- <div class="loggedUser">
+                            <a href="file:///D:/Downloads/nuevovacancy/html/company.html">
+                                <div></div>
+                                <span>arthur</span>
+                                <i class="fa fa-chevron-down"></i>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF DESKTOP MENU -->
+
+        <!-- MOBILE HEADER -->
+        <div id="mhWrapper">
+            <div id="mh">
+                <div class="mLogo"></div>
+                <div class="msm">
+                    <div class="loggedUser">
+                        <a href="file:///D:/Downloads/nuevovacancy/html/company.html">
+                            <div></div>
+                            <i class="fa fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class="mbtn">
+                        <span>menu</span>
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF MOBILE HEADER -->
+
+        <!-- MOBILE MENU -->
+        <div id="hiddenMenu">
+            <div class="clMenuIcon"><i class="fa fa-times"></i></div>
+            <ul class="hmList">
+                <li>
+                    <a href="file:///D:/Downloads/nuevovacancy/html/company.html">jobs</a>
+                    <i class="fa fa-chevron-down"></i>
+                    <ul class="nestedHM">
+                        <li><a href="#">saved jobs</a></li>
+                        <li><a href="#">matching jobs</a></li>
+                    </ul>
+                </li>
+                <li><a href="file:///D:/Downloads/nuevovacancy/html/login.html">login</a></li>
+                <li><a href="file:///D:/Downloads/nuevovacancy/html/register.html">sign up</a></li>
+            </ul>
+            <div class="cSocials">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <!-- END OF MOBILE MENU -->
+    </header>
+
+    <div class="logBlock">
+        <div class="container">
+            <div class="row align-items-center">
+                <h3 class="mb-3 logHead">log in</h3>
+                <div class="col-sm-12 col-md-6 animate__animated animate__zoomIn">
+                    <div class="row g-3">
+                        <form class="authForm g-3" action="" method="" enctype="multipart/form-data">
+                            <div class="mb-3 col-12">
+                                <label class="form-label">Email *</label>
+                                <input type="email" class="form-control" name="email" required>
+                            </div>
+                            <div class="mb-3 col-12">
+                                <label class="form-label">Password *</label>
+                                <input type="password" name="password" class="form-control" required>
+                            </div>
+                            <div class="d-flex justify-content-between logCheck">
+                                <div>
+                                    <input type="checkbox" id="rememberCheck" name="remember_me" />
+                                    <label class="form-check-label">
+                                        remember me
+                                    </label>
+                                </div>
+                                <a href="file:///D:/Downloads/nuevovacancy/html/forgot-password.html">forgot
+                                    password ?</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="regLogBtn">login</button>
+                    </div>
+                    
+                    <!-- <div class="alternativeReg text-center">
+                        <span>or</span>
+                    </div>
+                    <div id="socialReg" class="text-center row d-flex justify-content-evenly">
+                        <a href="#" class="col-sm-12 col-md-6"><i class="fa fa-google"></i>use google account</a>
+                        <a href="#" class="col-sm-12 col-md-6"><i class="fa fa-facebook-square"></i>use facebook
+                            account</a>
+                    </div> -->
+                </div>
+                <div class="col-6 d-none d-md-block">
+                    <div class="imgBlock">
+                        <img src="./assets/images/login.svg" />
+                        <div class="authText align-items-center">
+                            <p class="text-center">log in to your nuevo account and make the best out of it.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="hj">
+        <div class="container" id="futContainer">
+            <div class="row footColContainer">
+                <div class="col-12 col-sm-4 col-md-4">
+                    <div class="footImg">
+                        <img src="./assets/images/logo.png" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <h6>nuevo</h6>
+                    <ul class="futUl">
+                        <li><a href="#">jobs</a></li>
+                        <li><a href="#">pricing</a></li>
+                        <li><a href="#">terms of service</a></li>
+                        <li><a href="./assets/images/file.pdf" target="_blank">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <h6>contacts</h6>
+                    <ul class="futUl contactsCol">
+                        <li><a href="mailto:nuevovacancy@gmail.com"><i class="fa fa-envelope"
+                                    aria-hidden="true"><span>nuevovacancy@gmail.com</span></i></a>
+                        <li><i class="fas fa-map-marker-alt"> <span>Armenia, Yerevan, Abovyan
+                                    10</span></i></li>
+                        <li><a href="tel:+37499333333"><i class="fa fa-phone"> <span>+37499333333</span></i></a></li>
+                        <li class="lastLi">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF FOOTER BLOCK -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+#sbanner {
+    background-image: url("../images/single_company_banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 330px;
+    width: 100%;
+}
+
+#smInfo {
+    position: relative;
+    top: -40px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.sMainInfo {
+    background-color: #eff2f7;
+    box-shadow: 1px 1px 8px 1px #e6e6e6;
+    border-radius: 7px;
+    padding: 25px;
+}
+
+.scName {
+    margin-bottom: 50px;
+}
+
+.scName>h4 {
+    text-transform: capitalize;
+    color: #22D172;
+}
+
+.scHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.scHeader>.avImg {
+    margin: 0;
+    position: initial;
+}
+
+.scHeader .infoItem:not(:last-child) {
+    margin-right: 50px;
+}
+
+.siDivider {
+    width: 80%;
+    margin: 50px auto 70px auto;
+    height: .5px;
+    background-color: #d9d9d9;
+}
+
+.miBlock:not(:last-child) {
+    margin-bottom: 120px;
+}
+
+.miBlock>h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.scg {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.scg>.imgItem {
+    width: 250px;
+    height: 200px;
+    background-image: url("../images/user.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.actJobs thead,
+.actJobs tbody tr {
+    text-align: initial;
+}
+
+.scvm>a {
+    text-decoration: none;
+    text-align: center;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 992px) {
+    #sbanner {
+        margin-top: 35px;
+    }
+
+    .sMainInfo {
+        padding: 15px;
+        width: 100%;
+    }
+
+    #smInfo {
+        width: 100%;
+    }
+
+    .scHeader {
+        display: block;
+    }
+
+    .scHeader>.avImg {
+        margin: 0 auto;
+        border: none;
+    }
+
+    .scHeader .infoItem:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .scHeader>.infoBlock {
+        margin-top: 35px;
+    }
+
+    .imgItem {
+        width: 150px !important;
+    }
+
+    .miBlock:not(:last-child) {
+        margin-bottom: 80px;
+    }
+
+    #sbanner {
+        height: 250px;
+    }
+}
+
+/* END OF MEDIA */

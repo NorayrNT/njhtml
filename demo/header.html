@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- gfonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- gfonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/register.css" />
+    <link rel="stylesheet" href="./assets/css/user.css" />    
+    <title>Nuevo Vacancy - the best online recruitment agency in the world</title>
+</head>
+
+<body>
+    <header>
+        <!-- DESKTOP MENU -->
+        <div id="topMenu">
+            <div class="container">
+                <div class="row align-items-center d-flex justify-content-evenly ">
+                    <div id="logo" class="col-3">
+                        <a href="/">
+                            <img src="./assets/images/logo.png" alt="nuevovacancy_logo" />
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <ul id="mainMenu" class="navbar-nav d-lg-flex flex-row position-relative">
+                            <li class="mpli withN">
+                                <span>jobs</span>
+                                <i class="fas fa-angle-down"></i>
+                                <ul class="ddm animate__animated animate__zoomIn">
+                                    <li>
+                                        <img src="./assets/images/user.jpg" alt="menu_icon">
+                                        <a href="#">qa automation</a>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/images/user.jpg" alt="menu_icon">
+                                        <a href="#">javascript tutorial</a>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/images/user.jpg" alt="menu_icon">
+                                        <a href="#">nestjs documentation</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">trainings</a></li>
+                            <li><a href="#">contacts</a></li>
+                            <li><a href="#">about</a></li>
+                        </ul>
+                    </div>
+                    <div id="regLog" class="col-2">
+                        <select class="langBtn" name="">
+                            <option value="en" selected>en</option>
+                            <option value="es">es</option>
+                            <option value="am">am</option>
+                        </select>
+                        <a class="singUpBtn" href="file:///D:/Downloads/nuevovacancy/html/register.html">sign up</a>
+                        <a class="loginBtn" href="file:///D:/Downloads/nuevovacancy/html/login.html">log in</a>
+                        <!-- <div class="loggedUser">
+                            <a href="file:///D:/Downloads/nuevovacancy/html/company.html">
+                                <div></div>
+                                <span>arthur</span>
+                                <i class="fa fa-chevron-down"></i>
+                            </a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF DESKTOP MENU -->
+
+        <!-- MOBILE HEADER -->
+        <div id="mhWrapper">
+            <div id="mh">
+                <div class="mLogo"></div>
+                <div class="msm">
+                    <div class="loggedUser">
+                        <a href="file:///D:/Downloads/nuevovacancy/html/company.html">
+                            <div></div>
+                            <i class="fa fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class="mbtn">
+                        <span>menu</span>
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF MOBILE HEADER -->
+
+        <!-- MOBILE MENU -->
+        <div id="hiddenMenu">
+            <div class="clMenuIcon"><i class="fa fa-times"></i></div>
+            <ul class="hmList">
+                <li>
+                    <a href="file:///D:/Downloads/nuevovacancy/html/company.html">jobs</a>
+                    <i class="fa fa-chevron-down"></i>
+                    <ul class="nestedHM">
+                        <li><a href="#">saved jobs</a></li>
+                        <li><a href="#">matching jobs</a></li>
+                    </ul>
+                </li>
+                <li><a href="file:///D:/Downloads/nuevovacancy/html/login.html">login</a></li>
+                <li><a href="file:///D:/Downloads/nuevovacancy/html/register.html">sign up</a></li>
+            </ul>
+            <div class="cSocials">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
+        <!-- END OF MOBILE MENU -->
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

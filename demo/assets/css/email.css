@@ -1,0 +1,68 @@
+body {
+    overflow-x: hidden;
+}
+
+#tw {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#tw>h5 {
+    font-family: 'Finger Paint', cursive;
+    margin: 25px 0px;
+}
+
+#matJobs {
+    margin-bottom: 35px;
+}
+
+#matJobs>a {
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Finger Paint', cursive;
+    text-transform: capitalize;
+}
+
+#hip {
+    height: 350px;
+    background-image: url("../images/email_template_image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+#contactFoot>*:not(:first-child) {
+    font-family: "FInger Paint", cursive;
+}
+
+#contactFoot>div>p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#contactFoot>div:not(:first-child) {
+    margin-bottom: 15px;
+}
+ 
+#socIcons>a:not(:first-child) {
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 0 25px;
+    }
+
+    #tw {
+        width: 100% !important;
+        margin: 0;
+    }
+
+    #hip {
+        width: 100% !important;
+    }
+}
+
+/* @media only screen and (max-width: 992px) {} */

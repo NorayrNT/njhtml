@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/register.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/jobs.css" />
+    <link rel="stylesheet" href="./assets/css/user.css" />
+    <title>Nuevo Vacancy - the best recruitment agency in the world</title>
+</head>
+
+<body>
+    <!-- Header -->
+
+    <header>
+        <!-- DESKTOP MENU -->
+        <div id="topMenu">
+            <div class="container">
+                <div class="row align-items-center d-flex justify-content-evenly ">
+                    <div id="logo" class="col-3">
+                        <a href="/">
+                            <img src="./assets/images/logo.png" alt="nuevovacancy_logo" />
+                        </a>
+                    </div>
+                    <div class="col-5">
+                        <ul id="mainMenu" class="navbar-nav d-lg-flex flex-row position-relative">
+                            <li class="mpli withN">
+                                <span>jobs</span>
+                                <i class="fas fa-angle-down"></i>
+                                <ul class="ddm animate__animated animate__zoomIn">
+                                    <li>
+                                        <img src="./assets/images/user.jpg" alt="menu_icon">
+                                        <a href="#">qa automation</a>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/images/user.jpg" alt="menu_icon">
+                                        <a href="#">javascript tutorial</a>
+                                    </li>
+                                    <li>
+                                        <img src="./assets/images/user.jpg" alt="menu_icon">
+                                        <a href="#">nestjs documentation</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">trainings</a></li>
+                            <li><a href="#">contacts</a></li>
+                            <li><a href="#">about</a></li>
+                        </ul>
+                    </div>
+                    <div id="regLog" class="col-2">
+                        <select class="langBtn" name="">
+                            <option value="en" selected>en</option>
+                            <option value="es">es</option>
+                            <option value="am">am</option>
+                        </select>
+                        <div class="loggedUser">
+                            <a href="file:///D:/Downloads/nuevovacancy/html/company.html">
+                                <div></div>
+                                <span>arthur</span>
+                                <i class="fa fa-chevron-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF DESKTOP MENU -->
+
+        <!-- MOBILE HEADER -->
+        <div id="mhWrapper">
+            <div id="mh">
+                <div class="mLogo"></div>
+                <div class="msm">
+                    <div class="loggedUser">
+                        <a href="file:///D:/Downloads/nuevovacancy/html/company.html">
+                            <div></div>
+                            <i class="fa fa-chevron-down"></i>
+                        </a>
+                    </div>
+                    <div class="mbtn">
+                        <span>menu</span>
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END OF MOBILE HEADER -->
+
+        <!-- MOBILE MENU -->
+        <div id="hiddenMenu">
+            <div class="clMenuIcon"><i class="fa fa-times"></i></div>
+            <ul class="hmList">
+                <li>
+                    <a href="file:///D:/Downloads/nuevovacancy/html/company.html">jobs</a>
+                    <i class="fas fa-angle-down"></i>
+                    <ul class="nestedHM">
+                        <li><a href="#">saved jobs</a></li>
+                        <li><a href="#">matching jobs</a></li>
+                    </ul>
+                </li>
+                <li><a href="file:///D:/Downloads/nuevovacancy/html/login.html">login</a></li>
+                <li><a href="file:///D:/Downloads/nuevovacancy/html/register.html">sign up</a></li>
+            </ul>
+            <div class="cSocials">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <!-- END OF MOBILE MENU -->
+    </header>
+
+    <!-- HEADER END -->
+
+    <!-- USER   -->
+    <div id="userAccount">
+        <!-- POPUPS -->
+        <div id="popupBlock">
+            <div class="contWrapper">
+                <div class="popup">
+
+                    <!-- education -->
+                    <!-- <div class="popHeader">
+                        <h6>education</h6>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="popForm">
+                        <form class="pForm accountForm" action="" method="" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">company name</label>
+                                    <input type="text" class="form-control" name="company_name"  />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">degree</label>
+                                    <input type="text" class="form-control" name="degree"  />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">start date</label>
+                                    <input type="date" class="form-control" name="start_date" required />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">end date</label>
+                                    <input type="date" class="form-control" name="end_date" />
+                                </div>
+                                <div class="mb-3 col-12">
+                                    <label class="form-label">field of study</label>
+                                    <input type="text" class="form-control" name="field_of_study"  />
+                                </div>
+                                <div class="mb-3 col-12">
+                                    <label class="form-label">description</label>
+                                    <textarea  class="form-control" rows="5" name="description"></textarea>
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <input type="checkbox"  name="still_studying" />
+                                    <label class="form-label">still studying</label>
+                                </div>
+                            </div>
+                            <div class="popBtn"><button>save</button> </div>
+                        </form>
+                    </div> -->
+                    <!-- end of education -->
+
+                    <!-- Work -->
+                    <!-- <div class="popHeader">
+                        <h6>work</h6>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="popForm">
+                        <form class="pForm accountForm" action="" method="" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">company name</label>
+                                    <input type="text" class="form-control" name="company_name" value="nuevo brains" />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">title</label>
+                                    <input type="text" class="form-control" name="title" value="ceo" />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">start date</label>
+                                    <input type="date" class="form-control" name="start_date" required />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">end date</label>
+                                    <input type="date" class="form-control" name="end_date" />
+                                </div>
+                                <div class="mb-3 col-12">
+                                    <label class="form-label">description</label>
+                                    <textarea  class="form-control" rows="5" name="description"></textarea>
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6">
+                                    <label class="form-label">location</label>
+                                    <input type="text" class="form-control" name="location" value="Armenia" />
+                                </div>
+                                <div class="mb-3 col-12">
+                                    <input type="checkbox"  name="still_working" />
+                                    <label class="form-label">still working</label>
+                                </div>
+                            </div>
+                            <div class="popBtn"><button disabled>save</button> </div>
+                        </form>
+                    </div> -->
+                    <!-- End Of Work -->
+
+                    <!-- Subscription -->
+                    <!-- <div class="popHeader">
+                        <h6>subscription</h6>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="popForm">
+                        <form class="pForm accountForm" action="" method="" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">company name</label>
+                                    <input type="text" class="form-control" name="company_id" />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">category</label>
+                                    <select class="form-select" name="category">
+                                        <option selected>choose option</option>
+                                        <option value="information">information technology</option>
+                                        <option value="finance">finance</option>
+                                        <option value="construction">construction</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3 col-12 ">
+                                    <label class="form-label">skills</label>
+                                    <input type="text" class="form-control" name="skills" />
+                                    <div class="renderSkills mt-3 popupSkills">
+                                        <span> <i class="fas fa-times"></i> node js</span>
+                                        <span> <i class="fas fa-times"></i>javascript</span>
+                                        <div class="skillBox">
+                                            <p>node js</p>
+                                            <p>node js</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">frequency *</label>
+                                    <select class="form-select" name="frequency" required>
+                                        <option selected>choose option</option>
+                                        <option value="daily">daily</option>
+                                        <option value="weekly">weekly</option>
+                                        <option value="bi-weekly">bi-weekly</option>
+                                        <option value="monthly">monthly</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="popBtn"><button disabled>save</button> </div>
+                        </form>
+                    </div> -->
+                    <!-- End Of Subscription -->
+
+                    <!-- Contacts -->
+                    <!-- <div class="popHeader">
+                        <h6>social media</h6>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="popForm">
+                        <form class="pForm accountForm" action="" method="" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">facebook</label>
+                                    <input type="text" class="form-control" name="facebook"
+                                        placeholder="https://www.facebook.com/profile_id" />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">linkedin</label>
+                                    <input type="text" class="form-control" name="linkedin"
+                                        placeholder="https://www.linkedin.com/in/john-smith/" />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">youtube</label>
+                                    <input type="text" class="form-control" name="youtube"
+                                        placeholder="https://www.youtube.com/" />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">twitter</label>
+                                    <input type="text" class="form-control" name="twitter"
+                                        placeholder="https://www.twitter.com/" />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">vk</label>
+                                    <input type="text" class="form-control" name="vk"
+                                        placeholder="https://www.vk.com/" />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">instagram</label>
+                                    <input type="text" class="form-control" name="instagram"
+                                        placeholder="https://www.instagram.com/" />
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">website</label>
+                                    <input type="text" class="form-control" name="website"
+                                        placeholder="http://www.nuevovacancy.com/" />
+                                </div>
+                            </div>
+                            <div class="popBtn"><button disabled>save</button></div>
+                        </form>
+                    </div> -->
+                    <!-- end of contacts -->
+
+
+                    <!-- Languages -->
+                    <!-- <div class="popHeader">
+                        <h6>languages</h6>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="popForm">
+                        <form class="pForm accountForm" action="" method="" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">language</label>
+                                    <select class="form-select" name="laguage_id">
+                                        <option selected>choose option</option>
+                                        <option value="1">հայերեն</option>
+                                        <option value="2">dutch</option>
+                                        <option value="3">english</option>
+                                        <option value="4">espanol</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3 col-12 col-sm-6 col-md-6">
+                                    <label class="form-label">language level</label>
+                                    <select class="form-select" name="level">
+                                        <option selected>choose option</option>
+                                        <option value="beginner">beginner</option>
+                                        <option value="mid">mid</option>
+                                        <option value="native">native</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="popBtn"><button disabled>save</button> </div>
+                        </form>
+                    </div> -->
+                    <!-- End Of Languages -->
+
+                    <!-- Skills -->
+                    <!-- <div class="popHeader">
+                        <h6>skills</h6>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="popForm">
+                        <form class="pForm accountForm" action="" method="" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="mb-3 col-12 ">
+                                    <label class="form-label">skills</label>
+                                    <input type="text" class="form-control" name="skills[]" />
+                                    <div class="popupSkills mt-3">
+                                        <span> <i class="fas fa-times"></i> node js</span>
+                                        <span> <i class="fas fa-times"></i>javascript</span>
+                                        <div class="skillBox">
+                                            <p>node js</p>
+                                            <p>node js</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popBtn"><button disabled>save</button> </div>
+                        </form>
+                    </div> -->
+                    <!-- End Of Skills -->
+
+                    <!-- Cvs -->
+                    <!-- <div class="popHeader">
+                        <h6>upload cv</h6>
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <div class="popForm">
+                        <form class="pForm accountForm" action="" method="" enctype="multipart/form-data">
+                            <div class="row">
+                                <div class="mb-3 col-12 ">
+                                    <label class="form-label">upload cv</label>
+                                    <input type="file" class="form-control" name="cvs[]" multiple accept=".pdf, .doc, .docx" />
+                                </div>
+                            </div>
+                            <div class="popBtn"><button disabled>save</button></div>
+                        </form>
+                    </div> -->
+                    <!-- End Of Cvs -->
+
+                </div>
+            </div>
+        </div>
+        <!-- END OF POPUPS -->
+
+        <div class="container">
+            <div class="row">
+                <!-- ACCOUNT LEFT BLOCK -->
+                <div class="col-12 col-sm-12 col-md-3">
+                    <div id="userLeftBlock">
+                        <div id="userLogo">
+                            <div class="userImg">
+                                <form class="user_imgUpload" action="" method="" enctype="multipart/form-data">
+                                    <i class="fa fa-camera">
+                                        <input type="file" hidden accept="image/*" name="logo" />
+                                    </i>
+                                </form>
+                            </div>
+                            <div class="userInfo">
+                                <span>arthur</span>
+                            </div>
+                        </div>
+                        <div class="uhMenu"><i class="fa fa-bars"></i></div>
+                        <div id="userMenu">
+                            <ul class="menuList">
+                                <li class="">
+                                    <i class="fa fa-user"></i>
+                                    <a href="#">account info</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-bell"></i>
+                                    <a href="#">notifications</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-briefcase"></i>
+                                    <a href="#">jobs</a>
+                                    <i class="fas fa-angle-down"></i>
+                                    <ul class="nested">
+                                        <li><a href="#">saved jobs</a></li>
+                                        <li><a href="#">matching jobs</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <i class="fas fa-bolt"></i>
+                                    <a href="#">subscriptions</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-sign-out-alt"></i>
+                                    <a href="#">log out</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF ACCOUNT LEFT BLOCK -->
+
+                <!-- ACCOUNT RIGHT BLOCK -->
+                <div class="col-12 col-sm-12 col-md-9">
+                    <div id="userRightBlock">
+
+                        <!-- SUBSCRIBTIONS -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>subscriptions</h5>
+                            </div>
+
+                            <div class="nsAdd">
+                                <button>add new subscription</button>
+                            </div>
+                            <div class="subs">
+                                <div class="table-responsive-sm">
+                                    <table class="table cTable">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">companies</th>
+                                                <th scope="col">categories</th>
+                                                <th scope="col">frequency</th>
+                                                <th scope="col">skills</th>
+                                                <th scope="col">created at</th>
+                                                <th scope="col"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>nuevobrains</td>
+                                                <td>information technologies technologies</td>
+                                                <td>weekly</td>
+                                                <td>nodeJs, javascript, reactjs</td>
+                                                <td>15.08.2021</td>
+                                                <td>
+                                                    <i class="fa fa-edit"></i>
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>nuevobrains</td>
+                                                <td>information technologies</td>
+                                                <td>weekly</td>
+                                                <td>nodeJs, javascript, reactjs</td>
+                                                <td>15.08.2021</td>
+                                                <td>
+                                                    <i class="fa fa-edit"></i>
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>nuevobrains</td>
+                                                <td>information technologies</td>
+                                                <td>weekly</td>
+                                                <td>nodeJs, javascript, reactjs</td>
+                                                <td>15.08.2021</td>
+                                                <td>
+                                                    <i class="fa fa-edit"></i>
+                                                    <i class="fas fa-trash-alt"></i>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF SUBSCRIBTIOS -->
+
+                        <!-- SAVED JOBS -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>saved jobs</h5>
+                            </div>
+                            <div class="mJobBlock">
+                                <div class="imgB">
+                                    <img src="./assets/images/value1.svg" alt="nuevo_vacancy" class="img-fluid" />
+                                    <div class="mjDetails">
+                                        <h6>full stack javascript developer</h6>
+                                        <h6>nuevo brains</h6>
+                                    </div>
+                                </div>
+                                <div class="jDate">
+                                    <i class="fa fa-calendar"></i>
+                                    <span>05.08.2022</span>
+                                </div>
+                                <div class="vm svj">
+                                    <a href="#" target="_blank">view more</a>
+                                    <button>delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF SAVED JOBS -->
+
+                        <!-- MATCHING JOBS -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>matching jobs</h5>
+                            </div>
+                            <div class="mJobBlock">
+                                <div class="imgB">
+                                    <img src="./assets/images/value1.svg" alt="nuevo_vacancy" class="img-fluid" />
+                                    <div class="mjDetails">
+                                        <h6>full stack javascript developer</h6>
+                                        <h6>nuevo brains</h6>
+                                    </div>
+                                </div>
+                                <div class="jDate">
+                                    <i class="fa fa-calendar"></i>
+                                    <span>05.08.2022</span>
+                                </div>
+                                <div class="vm"><a href="#">view more</a></div>
+                            </div>
+                        </div>
+                        <!-- END OF MATCHING JOBS -->
+
+                        <!-- NOTIFICATIONS -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>notifications</h5>
+                            </div>
+
+                            <div class="clearAll">
+                                <span>clear all</span>
+                            </div>
+                            <div class="notiBlock">
+                                <div class="msg">
+                                    <i class="fa fa-envelope"></i>
+                                    <p class="nMsg">You have 4 new jobs matching to your subscribtions</p>
+                                </div>
+                                <div class="nBtn">
+                                    <a href="#">view now</a>
+                                    <i class="fas fa-trash-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF NOTIFICATIONS -->
+
+                        <!-- AVATAR -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>avatar</h5>
+                            </div>
+                            <div class="avatar">
+                                <div class="avImg"></div>
+                                <div class="avActions">
+                                    <form action="" method="" enctype="multipart/form-data">
+                                        <i class="fa fa-edit formIcon cursorI">
+                                            <input type="file" hidden name="logo" accept="image/*" />
+                                        </i>
+                                    </form>
+                                    <i class="fas fa-trash-alt formIcon cursorI"></i>
+                                    <button class="logoSave" disabled>save</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF AVATAR -->
+
+                        <!-- PERSONAL INFO -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>personal information</h5>
+                            </div>
+                            <div class="iEdit"><i class="far fa-edit"></i></div>
+                            <form class="accountForm" action="" method="" enctype="multipart/form-data">
+                                <div class="row g-3">
+                                    <div class="mb-3 col-sm-6 col-md-6">
+                                        <label class="form-label">name </label>
+                                        <input type="text" class="form-control" name="name" readonly />
+                                    </div>
+                                    <div class="mb-3 col-sm-6 col-md-6">
+                                        <label class="form-label">last name</label>
+                                        <input type="text" class="form-control" name="last_name" readonly />
+                                    </div>
+                                    <div class="mb-3 col-sm-6 col-md-6">
+                                        <label class="form-label">country</label>
+                                        <input type="text" class="form-control" name="country" readonly />
+                                    </div>
+                                    <div class="mb-3 col-sm-6 col-md-6">
+                                        <label class="form-label">city</label>
+                                        <input type="text" class="form-control" name="city" readonly />
+                                    </div>
+                                    <div class="mb-3 col-sm-6 col-md-6">
+                                        <label class="form-label">state</label>
+                                        <input type="text" class="form-control" name="state" readonly />
+                                    </div>
+                                    <div class="mb-3 col-sm-6 col-md-6">
+                                        <label class="form-label">street</label>
+                                        <input type="text" class="form-control" name="street" readonly />
+                                    </div>
+                                    <div class="mb-3 col-sm-6 col-md-4">
+                                        <label class="form-label">gender</label>
+                                        <select class="form-select" name="gender" readonly>
+                                            <option selected>choose option</option>
+                                            <option value="male">male</option>
+                                            <option value="female">female</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3 col-sm-6 col-md-4 phoneInput">
+                                        <label class="form-label">phone</label>
+                                        <div class="telCodes">
+                                            <img
+                                                src="https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AM.svg" />
+                                            <span>(+374)</span>
+                                            <i class="fas fa-angle-down"></i>
+                                        </div>
+                                        <div class="phoneList">
+                                            <input type="text" placeholder="country name" />
+                                            <div class="pItemWrapper">
+                                                <div class="pItem">
+                                                    <img
+                                                        src="https://cdn.jsdelivr.net/npm/country-flag-emoji-json@2.0.0/dist/images/AM.svg">
+                                                    <span class="pcName">armenia</span>
+                                                    <span>(+374)</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input type="text" class="form-control" name="phone" value="94333333" readonly>
+                                    </div>
+                                    <div class="mb-3 col-sm-6 col-md-4">
+                                        <label class="form-label">date_of_birth</label>
+                                        <input type="date" class="form-control" name="date_of_birth" readonly />
+                                    </div>
+                                    <div class="mb-3 col-12">
+                                        <label class="form-label">about me</label>
+                                        <textarea type="date" rows="7" class="form-control" name="summery"
+                                            readonly></textarea>
+                                    </div>
+                                    <div class="form-check col-6 col-sm-6 col-md-3">
+                                        <input class="form-check-input" name="relocate" type="checkbox" readonly>
+                                        <label class="form-check-label">relocate</label>
+                                    </div>
+                                    <div class="form-check col-6 col-sm-6 col-md-3">
+                                        <input class="form-check-input" name="business_trip" type="checkbox" readonly>
+                                        <label class="form-check-label">business trip</label>
+                                    </div>
+                                    <div class="form-check col-6 col-sm-6 col-md-3">
+                                        <input class="form-check-input" name="driving_license" type="checkbox" readonly>
+                                        <label class="form-check-label">driving license</label>
+                                    </div>
+                                    <div class="form-check col-6 col-sm-6 col-md-3">
+                                        <input class="form-check-input" name="private" type="checkbox" readonly>
+                                        <label class="form-check-label">private</label>
+                                    </div>
+                                </div>
+                                <div class="fsd"><button>save</button></div>
+                            </form>
+                        </div>
+                        <!-- END OF PERSONAL INFO -->
+
+                        <!-- PASSWORD -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>change password</h5>
+                            </div>
+                            <div class="iEdit"><i class="far fa-edit"></i></div>
+                            <form class="accountForm" action="" method="" enctype="multipart/form-data">
+                                <div class="row g-3">
+                                    <div class="mb-3 col-12 col-sm-4">
+                                        <label class="form-label">current password</label>
+                                        <input type="password" class="form-control" name="password">
+                                    </div>
+                                    <div class="mb-3 col-12 col-sm-4">
+                                        <label class="form-label">new password</label>
+                                        <input type="password" class="form-control" name="new_password">
+                                    </div>
+                                    <div class="mb-3 col-12 col-sm-4">
+                                        <label class="form-label">repeat password</label>
+                                        <input type="password" class="form-control" name="repeat_password">
+                                    </div>
+                                </div>
+                                <div class="fsd"><button disabled>save</button></div>
+                            </form>
+                        </div>
+                        <!-- END OF PASSWORD -->
+
+                        <!-- UPDATE EMAIL -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>change email</h5>
+                            </div>
+                            <form class="accountForm" action="" method="" enctype="multipart/form-data">
+                                <div class="row g-3 align-items-center">
+                                    <div class="mb-3 col-12 col-sm-4">
+                                        <label class="form-label">new email *</label>
+                                        <input type="email" class="form-control" name="email" required>
+                                    </div>
+                                    <div class="mb-3 col-12 col-sm-3">
+                                        <div class="fsd dbtn"><button disabled>save</button></div>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="damsg"><span>*</span>After updating a verifycation email will be sent to your email.</p>
+                            <p class="damsg"><span>*</span>In case of any problems contact the company.</p>
+                        </div>
+                        <!-- UPDATE EMAIL -->
+
+                        <!-- DEACTIVATE ACCOUNT -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>deactivate account</h5>
+                            </div>
+                            <form class="accountForm" action="" method="" enctype="multipart/form-data">
+                                <div class="row g-3 align-items-center">
+                                    <div class="mb-3 col-12 col-sm-4">
+                                        <label class="form-label">current password *</label>
+                                        <input type="password" class="form-control" name="password" required>
+                                    </div>
+                                    <div class="mb-3 col-12 col-sm-3">
+                                        <div class="fsd dbtn"><button disabled>deactivate</button></div>
+                                    </div>
+                                </div>
+                            </form>
+                            <p class="damsg"><span>*</span>After deactivation you won't be able to log in to your account.</p>
+                            <p class="damsg"><span>*</span>Contact the company for further activation.</p>
+                        </div>
+                        <!-- DEACTIVATE ACCOUNT -->
+
+                        <!-- CONTACTS -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>contacts</h5>
+                            </div>
+
+                            <div class="contBlock">
+                                <div class="iSocials">
+                                    <a href="#"><i class="fab fa-facebook"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </div>
+                                <div class="_actions">
+                                    <div class="_dActionss">
+                                        <i class="fa fa-plus"></i>
+                                        <span>add</span>
+                                    </div>
+                                    <div class="_dActionss">
+                                        <i class="fa fa-edit"></i>
+                                        <span>edit</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contBlock">
+                                <div class="cweb">
+                                    <a href="#">
+                                        <i class="fa fa-globe"></i>
+                                        <span>nuevovacancy.com</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF CONTACTS -->
+
+                        <!-- EDUCATION -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>education</h5>
+                                <i class="fa fa-plus"></i>
+                            </div>
+
+                            <div class="workBlock">
+                                <div class="wTitle">
+                                    <p>asue</p>
+                                    <p>finance</p>
+                                    <p>bachelor degree(bs)</p>
+                                </div>
+                                <div class="eduSecond">
+                                    <div class="eduDates wMix">
+                                        <div>
+                                            <i class="fa fa-calendar"></i>
+                                            <span>29.06.2021 - 29.06.2022</span>
+                                        </div>
+                                        <div>
+                                            <i class="fa fa-map-marker"></i>
+                                            <span>armenia, yerevan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="eduThird">
+                                    <div class="eduActions wMix">
+                                        <div>
+                                            <i class="fa fa-edit"></i>
+                                            <span>edit</span>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-trash-alt"></i>
+                                            <span>delete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF EDUCATION -->
+
+                        <!-- WORK -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>work experience</h5>
+                                <i class="fa fa-plus"></i>
+                            </div>
+
+                            <div class="workBlock">
+                                <div class="wTitle">
+                                    <p>ceo</p>
+                                    <p>nuevo brains</p>
+                                </div>
+                                <div>
+                                    <div class="wMix">
+                                        <div>
+                                            <i class="fa fa-calendar"></i>
+                                            <span>29.06.2021 - 29.06.2022</span>
+                                        </div>
+                                        <div>
+                                            <i class="fa fa-map-marker"></i>
+                                            <span>armenia, yerevan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="eduThird">
+                                    <div class="eduActions wMix">
+                                        <div>
+                                            <i class="fa fa-edit"></i>
+                                            <span>edit</span>
+                                        </div>
+                                        <div>
+                                            <i class="fas fa-trash-alt"></i>
+                                            <span>delete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF WORK -->
+
+                        <!-- LANGUAGES -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>languages</h5>
+                                <i class="fa fa-plus"></i>
+                            </div>
+
+                            <div class="langBlock">
+                                <div class="langDetails">
+                                    <p>english</p>
+                                    <p>upper</p>
+                                </div>
+                                <div class="_actions">
+                                    <div class="_dActionss">
+                                        <i class="fa fa-edit"></i>
+                                        <span>edit</span>
+                                    </div>
+                                    <div class="_dActionss">
+                                        <i class="fas fa-trash-alt"></i>
+                                        <span>delete</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF LANGUAGES -->
+
+                        <!-- SKILLS -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>skills</h5>
+                                <i class="fa fa-plus"></i>
+                            </div>
+
+                            <div class="skillBlock">
+                                <div class="skillTitle">
+                                    <p>javascript</p>
+                                </div>
+                                <div class="_actions">
+                                    <div class="_dActionss mrn">
+                                        <i class="fas fa-trash-alt"></i>
+                                        <span>delete</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END OF SKILLS -->
+
+                        <!-- CVS -->
+                        <div class="userItemBlock">
+                            <div class="itemHeader">
+                                <h5>cvs</h5>
+                                <i class="fa fa-plus"></i>
+                            </div>
+
+                            <div class="skillBlock">
+                                <div class="skillTitle">
+                                    <p>
+                                        <a href="D:\Downloads\nuevovacancy\html\assets\images\file.pdf"
+                                            target="_blank">first_cv</a>
+                                    </p>
+                                </div>
+                                <div class="_actions">
+                                    <div class="_dActionss mrn">
+                                        <i class="fas fa-trash-alt"></i>
+                                        <span>delete</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- END OF CVS -->
+                    </div>
+                </div> <!-- END OF ACCOUNT RIGHT BLOCK -->
+            </div>
+        </div>
+    </div>
+    <!-- END OF USER BLOCK -->
+
+    <!-- FOOTER -->
+    <div id="hj">
+        <div class="container" id="futContainer">
+            <div class="row footColContainer">
+                <div class="col-12 col-sm-4 col-md-4">
+                    <div class="footImg">
+                        <img src="./assets/images/logo.png" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <h6>nuevo</h6>
+                    <ul class="futUl">
+                        <li><a href="#">jobs</a></li>
+                        <li><a href="#">pricing</a></li>
+                        <li><a href="#">terms of service</a></li>
+                        <li><a href="./assets/images/file.pdf" target="_blank">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-md-4">
+                    <h6>contacts</h6>
+                    <ul class="futUl contactsCol">
+                        <li><a href="mailto:nuevovacancy@gmail.com"><i class="fa fa-envelope"
+                                    aria-hidden="true"><span>nuevovacancy@gmail.com</span></i></a>
+                        <li><i class="fas fa-map-marker-alt"><span>Armenia, Yerevan, Abovyan
+                                    10</span></i></li>
+                        <li><a href="tel:+37499333333"><i class="fa fa-phone"> <span>+37499333333</span></i></a></li>
+                        <li class="lastLi">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END OF FOOTER BLOCK -->
+
+    <!-- COPYRIGHT -->
+    <div id="copyright" class="d-flex justify-content-center">
+        <div class="copyContent">
+            <i class="fa fa-copyright"></i>
+            <span class="date">2022</span>
+            <span class="termText">all rights reseverd. designed and developed by </span>
+            <a href="http://nuevobrains.com">nuevo brains</a>
+        </div>
+    </div>
+    <!-- END OF COPYRIGHT -->
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+    <!-- SCRIPTS -->
+</body>
+
+</html>

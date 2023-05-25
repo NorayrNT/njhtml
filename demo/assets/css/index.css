@@ -1,0 +1,499 @@
+#searchBlock {
+    margin-top: 125px;
+}
+
+#srcForm {
+    display: flex;
+}
+
+#srcForm>div>input {
+    height: 40px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #999999;
+    background-color: transparent;
+    color: black;
+    margin-right: 10px;
+    padding-left: 60px;
+}
+
+#srcForm>div>input:focus {
+    border: 1px solid black;
+}
+
+#srcForm>div>input::placeholder {
+    font-style: italic;
+    padding-left: 13px;
+    font-size: 15px;
+}
+
+#srcForm>button,
+.mfBtn {
+    height: 40px;
+    border: 1px solid #1A2E44;
+    background-color: #1A2E44;
+    color: white;
+    border-radius: 8px;
+    padding: 0px;
+    width: 120px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#srcForm>button:hover {
+    background-color: #233f5c;
+}
+
+.mfBtn {
+    margin-bottom: 20px;
+}
+
+.firstIcon,
+.secondIcon {
+    right: 23px;
+}
+
+.firstIcon,
+.secondIcon {
+    top: 50%;
+    text-transform: capitalize;
+    font-size: 14;
+    color: black;
+    opacity: .7;
+    transform: translateY(-50%);
+}
+
+.firstWord,
+.secondWord {
+    left: 13px;
+}
+
+.firstWord,
+.secondWord {
+    top: 50%;
+    text-transform: capitalize;
+    font-size: 14;
+    color: #233f5c;
+    opacity: .7;
+    transform: translateY(-50%);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.skillDrop {
+    display: none;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #999999;
+    border-top: transparent;
+    background-color: white;
+    padding: 13px 13px 0px 13px;
+    height: 290px;
+    max-height: 290px;
+    overflow: hidden;
+    z-index: 5000;
+}
+
+.skillDrop>p {
+    margin-bottom: 7px;
+    cursor: pointer;
+    color: #202c45;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.skillDrop>p:hover {
+    color: #1A2E44;
+}
+
+#lIntro {
+    margin: 150px 0px 90px 0px;
+}
+
+.lIntro>h5 {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+}
+
+.frontUp {
+    margin-top: 50px;
+    background-color: #22D172;
+    border: 1px solid #22D172;
+    padding: 10px 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 8px;
+    transform: .8s;
+    font-weight: 600;
+}
+
+.frontUp:hover {
+    background-color: #199a53;
+    transition: .8s;
+}
+
+#mapBlock {
+    background-image: url("../images/nuevo_hot_dotted_1.png");
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100% !important;
+    position: relative;
+}
+
+#mapTxt {
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    margin: auto auto;
+}
+
+#mapTxt>h3 {
+    font-family: 'Finger Paint', cursive;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 600;
+}
+
+#mapTxt>p {
+    font-size: 15px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-family: 'Finger Paint', cursive;
+    color: black;
+}
+
+/* .hotTxt {
+    text-align: center;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}
+
+.jobItem {
+    padding: 0px;
+    position: relative;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 15px 1px #999999;
+}
+
+.jobItem>i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.jobImg,
+.jobTxt,
+.favMore {
+    margin-bottom: 15px;
+}
+
+.jobImg>img {
+    width: 110px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.jobTitle {
+    margin-left: 20px;
+}
+
+.jobTitle>h6 {
+    text-transform: capitalize;
+}
+
+.jobTitle>h6:nth-child(2) {
+    color: #22D172;
+}
+
+.jobTxt {
+    height: 80px;
+    max-height: 80px;
+    overflow-y: hidden;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.jobTxt>h6 {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.favMore>a {
+    text-decoration: none;
+    color: white;
+    background-color: #22D172;
+    transition: .6s;
+    border-radius: 7px;
+    padding: 7px 0px;
+    width: 150px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.favMore>a:hover {
+    background-color: #199a53;
+    transition: .6s;
+}
+
+.favMore>i {
+    border: 1px solid #1A2E44;
+    border-radius: 7px;
+    padding: 7px 15px;
+    transition: .6s;
+    cursor: pointer;
+}
+
+.chosenJob {
+    color: white;
+    background-color: #1A2E44;
+    transition: .6s;
+} */
+
+#valueBlock {
+    background-color: white;
+    padding: 100px 0px;
+
+}
+
+#valueBlock>.container>.row>.col-6:hover {
+    box-shadow: 1px 1px 8px 1px #e6e6e6;
+}
+
+.colMargin {
+    padding: 0px;
+}
+
+#valueItem {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+
+#valueItem>img {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+#valueItem>h5 {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: cursive;
+}
+
+/* About block */
+#aboutBlock {
+    background-image: url("../images/about_us_background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.aboutTxt {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+}
+
+.aboutTxt>* {
+    font-family: "Finger Paint", cursive;
+}
+
+.aboutTxt>h3 {
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.aboutTxt>h6 {
+    font-size: 18px;
+}
+
+/* End of About Block */
+
+.noLeftBorder {
+    border-left: none;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+#beforeFoot {
+    background-color: #1a2e44;
+    height: 350px;
+}
+
+.bflPart>* {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.bflPart>p {
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.bflPart>h1 {
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.bflPart>a {
+    background-color: #22D172;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 50px;
+    text-transform: capitalize;
+    font-size: 16px;
+    transition: .5s;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bflPart>a:hover {
+    background-color: #199a53;
+    transition: .5s;
+    color: white;
+}
+
+.bfImage>img {
+    height: 350px;
+    width: -webkit-fill-available;
+}
+
+/* MEDIA */
+@media only screen and (max-width: 992px) {
+    #mapBlock {
+        background-repeat: round;
+        height: 300px;
+    }
+
+    #mapTxt {
+        top: 50%;
+        left: 40%;
+    }
+
+    #searchBlock {
+        text-align: center;
+    }
+
+    #srcForm {
+        display: block !important;
+        width: 100%;
+    }
+
+    #srcForm>div {
+        margin-bottom: 15px;
+    }
+
+    #srcForm>div>input {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .sBtn {
+        width: 150px !important;
+    }
+
+    #lIntro {
+        margin: 100px 0px 80px 0px;
+    }
+
+    .lIntro>h5 {
+        width: 95% !important;
+    }
+
+    #hotBlock>.container-fluid>.row>.col-12 {
+        margin-bottom: 20px;
+    }
+
+    .jobItem {
+        padding: 10px !important;
+    }
+
+    #hotBlock {
+        padding: 70px 0px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .aboutTxt {
+        width: 100%;
+    }
+
+    #valueBlock {
+        padding: 0px;
+    }
+
+    #beforeFoot {
+        height: 450px !important;
+    }
+
+    .bfImage {
+        text-align: center;
+    }
+
+    .bfImage>img {
+        height: 250px;
+    }
+
+    .bflPart {
+        margin-top: 30px;
+    }
+
+    .bflPart>* {
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .bflPart>p {
+        font-size: 18px;
+    }
+
+    .bflPart>h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .bflPart>* {
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .bflPart>p {
+        font-size: 16px;
+    }
+
+    .bflPart>h1 {
+        font-size: 20px;
+    }
+
+    .footColContainer>.col-12 {
+        text-align: initial !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #changeable {
+        max-width: 1140px;
+    }
+
+    .bfImage {
+        text-align: center;
+    }
+}
+
+/* END OF MEDIA */
